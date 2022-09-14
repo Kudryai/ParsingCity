@@ -1,12 +1,15 @@
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
 [packages]
+undetected-chromedriver = "*"
 beautifulsoup4 = "*"
 lxml = "*"
-pandas = "*"
+pymysql = "*"
+pyvirtualdisplay = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
